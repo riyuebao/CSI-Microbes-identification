@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## older version such as 5.4.0 is missing [--group-components] option and will error out 
-module load snakemake/6.0.5
+module load snakemake/6.6.1
 snakemake \
 --use-conda \
 --rerun-incomplete \
